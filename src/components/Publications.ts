@@ -4,14 +4,15 @@ import { TailwindElement } from "../shared/tailwind.element";
 
 import style from "../shared/tailwind.global.css";
 
-@customElement("news-room")
-export class Newsroom extends TailwindElement(style) {
+@customElement("publi-cations")
+export class Publications extends TailwindElement(style) {
 
     render() {
         return html`
             <main>
-                <newsroom-mobile></newsroom-mobile>
-                <newsroom-big></newsroom-big>
+                <publications-menu></publications-menu>
+                <publications-small></publications-small>
+                <publications-desktop></publications-desktop>
             </main>           
         `;
     }

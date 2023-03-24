@@ -15,7 +15,7 @@
     }
 
     .mobile-footer-btns {
-        @apply w-[134px] h-8 border-[1px] border-white rounded-full text-center text-[17px] pt-0.5 mx-3 hover:bg-white hover:text-primary;
+        @apply w-[134px] h-8 border-[1px] border-white rounded-full text-center text-[17px] pt-0.5 mx-3 hover:bg-white hover:text-primary select-none;
     }
 
     .desktop-header-nav-items {
@@ -162,6 +162,34 @@
     }
 }
 
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+:root {
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+input::placeholder {
+    color: rgba(38, 71, 108, 1);
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea::placeholder {
+    color: rgba(38, 71, 108, 1);
+}
+
+textarea:focus {
+    outline: none;
+}
+
+#body-newsletter-input::placeholder {
+    color: white;
+}
 
 .font-jose-200 {
     font-family: 'Josefin Sans';
@@ -228,7 +256,3 @@
     background: #399AC299;
 }
 
-body {
-    position: relative;
-    min-height: 100vh;
-}
