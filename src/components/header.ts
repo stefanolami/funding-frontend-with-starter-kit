@@ -17,6 +17,9 @@ export class Header extends TailwindElement(style) {
     @property({type: Boolean, attribute: 'with-doors'})
     withDoors: boolean = false
 
+    @property({type: String})
+    title: string = 'TIME&PLACE FUNDING'
+
     render() {
         return html`
         <header>
@@ -63,7 +66,7 @@ export class Header extends TailwindElement(style) {
                     </nav>
                 </div>
                 <div>
-                    <h1 class="absolute bottom-0 w-full font-unna-700 text-[39px] xl:text-[50px] text-white leading-10 text-center p-2 xl:p-6">TIME&PLACE FUNDING</h1>
+                    <h1 class="absolute bottom-0 w-full font-unna-700 text-[39px] xl:text-[50px] text-white leading-10 text-center p-2 xl:p-6">${this.title}</h1>
                 </div>
             </div>
 
@@ -97,7 +100,6 @@ export class Header extends TailwindElement(style) {
                     </nav>
                 </div>
             </div>
-
         </header>
         `;
     }

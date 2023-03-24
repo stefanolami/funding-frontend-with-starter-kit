@@ -7,7 +7,7 @@
 @layer components {
 
     main {
-        @apply pb-[200px] md:pb-[426px] xl:pb-[303px]
+        @apply pb-[200px] md:pb-[426px] xl:pb-[360px]
     }
 
     .mobile-menu-rectangle {
