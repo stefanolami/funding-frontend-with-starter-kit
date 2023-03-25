@@ -25,7 +25,7 @@ export class PublicationsDesktop extends TailwindElement(style) {
                                 </div>
                                 <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">The EU circular challenge(s)</h3>
                                 <p class="my-3 font-jose-400 text-black text-base leading-4">The Corona pandemic is affecting every and each field of policy-making, including the EU Green Deal and the circular economy agenda. T&P’s Alessandro had a look at where the EU stands in its circular endeavour and what to expect from EU policy-making.</p>
-                                <a href="" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
+                                <a href="publications-article.html" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
                             </div>
                         </div>
                         <div class="grid grid-cols-2 relative h-[460px] border border-primary text-primary-dark2">
@@ -40,7 +40,7 @@ export class PublicationsDesktop extends TailwindElement(style) {
                                 </div>
                                 <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">Is a Just Transition possible throughout (post-)Corona recovery?</h3>
                                 <p class="my-3 font-jose-400 text-black text-base leading-4">Corona is driving the political agenda in Brussels and the Commission has pledged to put the EU Green Deal at the centre of the recovery plan currently under preparation. With a new EU long-term budget also in the making, is there a new opportunity to re-launch the Just Transition objective?</p>
-                                <a href="" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
+                                <a href="publications-article.html" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ export class PublicationsDesktop extends TailwindElement(style) {
                                 </div>
                                 <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">Part III - The poor response of Western institutions</h3>
                                 <p class="my-3 font-jose-400 text-black text-base leading-4">In the third COVID-Files entry Joachim Marnitz goes solo and talks about why he believes the German healthcare system is about to break down and why many institutions in the West are responding so poorly. An interesting benchmarking exercise looking at the efficiency of Seoul and Italy. And, some suggestions about what you can do. Please note that he has not gone solo because we have abandoned him due to his self-quarantine. We are constantly “in touch” and wish him all the best.  </p>
-                                <a href="" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
+                                <a href="publications-article.html" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ export class PublicationsDesktop extends TailwindElement(style) {
                                 </div>
                                 <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">Part II - Impeachment and what statistics still (don't) tell us</h3>
                                 <p class="my-3 font-jose-400 text-black text-base leading-4">Trump’s impeachment saga has lasted for a few months now, and at this point it seems very clear to us that it will have no negative consequences for his re-election chances - in fact it is very possible that the whole process ends up helping him.</p>
-                                <a href="" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
+                                <a href="publications-article.html" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
                             </div>
                         </div>
                         <div class="grid grid-rows-2 relative h-[460px] border border-primary text-primary-dark2">
@@ -89,7 +89,7 @@ export class PublicationsDesktop extends TailwindElement(style) {
                                 </div>
                                 <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">The first 100 days of the “von der Leyen Commission</h3>
                                 <p class="my-3 font-jose-400 text-black text-base leading-4">Back in the summer of 2019, the soon-to-become EU Commission president Ursula von der Leyen pledged to deliver on a wide range of political initiatives within the first 100 days of her mandate. Have such promises been fulfilled?</p>
-                                <a href="" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
+                                <a href="publications-article.html" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
                             </div>
                         </div>
                     </div>

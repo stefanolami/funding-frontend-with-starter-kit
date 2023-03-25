@@ -8,7 +8,6 @@ import style from "../../shared/tailwind.global.css";
 export class LandingPageBigNewsroom extends TailwindElement(style) {
 
     render() {
-        console.log('newsroom')
         return html`
             <div class="hidden md:block">
                 <h1 class="font-unna-700 text-xl md:text-[39px] xl:text-[50px] text-center mt-16 md:mt-20 xl:mt-28">NEWSROOM</h1>
