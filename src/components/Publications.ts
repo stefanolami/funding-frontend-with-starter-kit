@@ -4,7 +4,7 @@ import { TailwindElement } from "../shared/tailwind.element";
 
 import style from "../shared/tailwind.global.css";
 
-@customElement("publi-cations")
+@customElement("my-publications")
 export class Publications extends TailwindElement(style) {
 
     render() {
