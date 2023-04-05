@@ -13,12 +13,12 @@ export class PublicationsDesktop extends TailwindElement(style) {
             <div class="hidden xl:block">
                 <div class="grid gap-6 mx-44 my-20 max-w-6xl min-[1500px]:mx-auto">
                     <div class="grid grid-cols-[38%_1fr] gap-6">
-                        <div class="grid grid-rows-2 relative h-[460px] border border-primary text-primary-dark2">
+                        <div class="grid grid-rows-2 relative h-[460px] text-primary-dark2">
                             <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">Funding Programmes</div>
                             <div class="ì w-full">
                                 <img class="object-cover w-full h-full" src="../../images/publications/publications-agriculture-desktop.png" class="w-full" alt="Publication Image Preview">
                             </div>
-                            <div class="relative flex flex-col justify-start p-6 h-full">
+                            <div class="relative flex flex-col justify-start p-6 h-full border border-t-0 border-primary ">
                                 <div class="absolute bottom-0 left-0 p-4 leading-4">
                                     <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
                                     <p class="font-jose-300 text-[13px] text-left">April 20, 2020</p>
@@ -28,12 +28,12 @@ export class PublicationsDesktop extends TailwindElement(style) {
                                 <a href="publications-article.html" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
                             </div>
                         </div>
-                        <div class="grid grid-cols-2 relative h-[460px] border border-primary text-primary-dark2">
+                        <div class="grid grid-cols-2 relative h-[460px] text-primary-dark2">
                             <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">Funding Programmes</div>
                             <div class="w-full">
                                 <img class="object-cover w-full h-full" src="../../images/publications/corona-desktop.png" class="w-full" alt="Publication Image Preview">
                             </div>
-                            <div class="relative flex flex-col justify-start p-6 h-full">
+                            <div class="relative flex flex-col justify-start p-6 h-full border border-l-0 border-primary">
                                 <div class="absolute bottom-0 left-0 p-4 leading-4">
                                     <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
                                     <p class="font-jose-300 text-[13px] text-left">April 20, 2020</p>
@@ -45,12 +45,12 @@ export class PublicationsDesktop extends TailwindElement(style) {
                         </div>
                     </div>
                     <div>
-                        <div class="grid grid-cols-[60%_1fr] relative h-[344px] border border-primary text-primary-dark2">
+                        <div class="grid grid-cols-[60%_1fr] relative h-[344px] text-primary-dark2">
                             <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">The Covid of Things</div>
                             <div class="h-full">
                                 <img class="object-cover h-full" src="../../images/publications/publications-china-desktop.png" class="w-full" alt="Publication Image Preview">
                             </div>
-                            <div class="relative flex flex-col justify-start p-6 h-full">
+                            <div class="relative flex flex-col justify-start p-6 h-full border border-l-0 border-primary ">
                                 <div class="absolute bottom-0 left-0 p-4 leading-4">
                                     <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
                                     <p class="font-jose-300 text-[13px] text-left">March 7, 2020</p>
@@ -62,12 +62,12 @@ export class PublicationsDesktop extends TailwindElement(style) {
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-6">
-                        <div class="grid grid-rows-2 relative h-[460px] border border-primary text-primary-dark2">
+                        <div class="grid grid-rows-2 relative h-[460px] text-primary-dark2">
                             <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">Predicability in Politics</div>
                             <div class="ì w-full">
                                 <img class="object-cover w-full h-full" src="../../images/publications/publications-germany-desktop.png" class="w-full" alt="Publication Image Preview">
                             </div>
-                            <div class="relative flex flex-col justify-start p-6 h-full">
+                            <div class="relative flex flex-col justify-start p-6 h-full border border-t-0 border-primary">
                                 <div class="absolute bottom-0 left-0 p-4 leading-4">
                                     <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
                                     <p class="font-jose-300 text-[13px] text-left">April 20, 2020</p>
@@ -77,12 +77,12 @@ export class PublicationsDesktop extends TailwindElement(style) {
                                 <a href="publications-article.html" class="absolute bottom-3 right-3 w-28 h-8 px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-center text-xs hover:text-white hover:bg-primary">READ MORE</a>
                             </div>
                         </div>
-                        <div class="grid grid-rows-2 relative h-[460px] border border-primary text-primary-dark2">
+                        <div class="grid grid-rows-2 relative h-[460px] text-primary-dark2">
                             <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">Funding Programmes</div>
                             <div class="ì w-full">
                                 <img class="object-cover w-full h-full" src="../../images/publications/publications-commission-desktop.png" class="w-full" alt="Publication Image Preview">
                             </div>
-                            <div class="relative flex flex-col justify-start p-6 h-full">
+                            <div class="relative flex flex-col justify-start p-6 h-full border border-t-0 border-primary">
                                 <div class="absolute bottom-0 left-0 p-4 leading-4">
                                     <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
                                     <p class="font-jose-300 text-[13px] text-left">April 20, 2020</p>

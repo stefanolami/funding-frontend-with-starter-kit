@@ -10,11 +10,11 @@ export class PublicationsArticle extends TailwindElement(style) {
     render() {
         return html`
             <main>
-                <div class="w-[88%] md:w-full mx-auto mt-6 md:mt-16 xl:mt-20 mb-16 md:mb-32">
+                <div class="w-[88%] md:w-full mx-automb-16 md:mb-32">
                     <div class="md:w-[88%] xl:w-[75%] mx-auto">
                         <p class="xl:hidden w-2/5 md:w-full md:pl-[82%] xl:pl-[88%] mx-auto text-center md:text-right font-jose-300-it md:font-semibold text-[13px] md:text-[15px] leading-[13px] md:leading-[15px]">April 9, 2020</p>
                         <div class="xl:flex flex-row justify-between items-end">
-                            <h1 class="mx-auto mt-8 md:mt-8  xl:mx-0 font-unna-700 text-left text-[20px] md:text-[39px] xl:text-[50px] leading-[23px] md:leading-[45px] xl:leading-[57px]">THE FIRST 100 DAYS OF THE </br>"VON DER LEYEN COMMISSION"</h1>
+                            <h1 class="mx-auto xl:mx-0 font-unna-700 text-left text-[20px] md:text-[39px] xl:text-[50px] leading-[23px] md:leading-[45px] xl:leading-[57px]">THE FIRST 100 DAYS OF THE </br>"VON DER LEYEN COMMISSION"</h1>
                             <p class="hidden xl:block font-jose-400-it text-[15px] leading-[15px] text-right">April 9, 2020<br><span class="not-italic font-semibold leading-10">by Sébastien Blanchard</span></p>
                         </div>                   
                         <p class="xl:hidden mt-3 md:mt-7 xl:mt-16 font-jose-400-it md:font-semibold text-[14px] md:text-[15px] leading-4 md:leading-[15px]">by Sébastien Blanchard</p>
@@ -25,7 +25,7 @@ export class PublicationsArticle extends TailwindElement(style) {
                     </div>               
                     <img class="xl:hidden w-full mt-12" src="../../images/publications/example-commission-tablet.png" alt="European Commission">
                     <img class="hidden xl:block w-full mt-12" src="../../images/publications/example-commission-desktop.png" alt="European Commission">
-                    <p class="md:w-[88%] xl:w-3/5 md:mx-auto mt-3 md:mt-7 font-jose-300-it text-[14px] md:text-[14px] leading-4 md:leading-[14px] text-left">Legend for this beautiful and very meaningful picture that perfectly illustrates our purpose.</p>
+                    <p class="md:w-[88%] xl:w-[75%] md:mx-auto mt-3 font-jose-300-it text-[14px] md:text-[14px] leading-4 md:leading-[14px] text-left">Legend for this beautiful and very meaningful picture that perfectly illustrates our purpose.</p>
                     <div class="md:w-[75%] xl:w-3/5 mx-auto">
                         <h2 class="publications-article-h2">Have such promises been fulfilled?</h2>
                         <p class="publications-article-h2-subtitle">T&P Senior Consultant and Founder of Egemone Consulting in Bordeaux, Sébastien Blanchard, has a look.</p>
@@ -51,7 +51,7 @@ export class PublicationsArticle extends TailwindElement(style) {
                     </div>               
                     <img class="md:hidden w-full mt-12" src="../../images/publications/example-start-mobile.png" alt="European Commission">
                     <img class="hidden md:block w-full xl:w-4/5 mx-auto mt-12 xl:mt-20" src="../../images/publications/example-start-desktop.png" alt="European Commission">
-                    <p class="md:w-[88%] xl:w-3/5 md:mx-auto mt-3 md:mt-7 font-jose-300-it text-[14px] md:text-[14px] leading-4 md:leading-[14px] text-left">Legend for this beautiful and very meaningful picture that perfectly illustrates our purpose.</p>
+                    <p class="md:w-[88%] xl:w-[75%] md:mx-auto mt-3 font-jose-300-it text-[14px] md:text-[14px] leading-4 md:leading-[14px] text-left">Legend for this beautiful and very meaningful picture that perfectly illustrates our purpose.</p>
                     <div class="md:w-[75%] xl:w-3/5 mx-auto">
                         <p class="mt-4 md:mt-16 publications-article-p">She also outlined a clear roadmap:
                             <br><br>With regard to the Emissions Trading Scheme, an extension to the maritime sector, road traffic and the construction sector should be proposed, 
@@ -113,7 +113,7 @@ export class PublicationsArticle extends TailwindElement(style) {
                         </p>
                     </div>                
                     <img class="w-full xl:w-4/5 mx-auto mt-12 xl:mt-20" src="../../images/publications/example-solar-desktop.png" alt="European Commission">
-                    <p class="md:w-[88%] xl:w-3/5 md:mx-auto mt-3 md:mt-7 font-jose-300-it text-[14px] md:text-[14px] leading-4 md:leading-[14px] text-left">Legend for this beautiful and very meaningful picture that perfectly illustrates our purpose.</p>
+                    <p class="md:w-[88%] xl:w-[75%] md:mx-auto mt-3 font-jose-300-it text-[14px] md:text-[14px] leading-4 md:leading-[14px] text-left">Legend for this beautiful and very meaningful picture that perfectly illustrates our purpose.</p>
                     <div class="md:w-[75%] xl:w-3/5 mx-auto">
                         <p class="mt-8 md:mt-16 publications-article-p">Secondly, the Executive presented a proposal for a European regulation to enshrine the 2050 
                             climate-neutrality objective into EU law. The Commission therefore stood by its political commitment, although the challenge lies elsewhere: 
@@ -143,7 +143,7 @@ export class PublicationsArticle extends TailwindElement(style) {
                     </div>               
                     <img class="xl:hidden w-full mt-12" src="../../images/publications/example-weird-tablet.png" alt="European Commission">
                     <img class="hidden xl:block w-4/5 mx-auto mt-20" src="../../images/publications/example-weird-desktop.png" alt="European Commission">
-                    <p class="md:w-[88%] xl:w-3/5 md:mx-auto mt-3 md:mt-7 font-jose-300-it text-[14px] md:text-[14px] leading-4 md:leading-[14px] text-left">Legend for this beautiful and very meaningful picture that perfectly illustrates our purpose.</p>
+                    <p class="md:w-[88%] xl:w-[75%] md:mx-auto mt-3 font-jose-300-it text-[14px] md:text-[14px] leading-4 md:leading-[14px] text-left">Legend for this beautiful and very meaningful picture that perfectly illustrates our purpose.</p>
                     <div class="md:w-[75%] xl:w-3/5 mx-auto">
                         <p class="mt-8 md:mt-16 publications-article-p">On this last topic, the "legal weakness" of the initiative presented, compared to what had been 
                             announced by von der Leyen, can certainly be explained by the intense lobbying undergone by the European Executive on behalf of the digital technology 

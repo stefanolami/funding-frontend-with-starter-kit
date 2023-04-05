@@ -9,7 +9,7 @@ export class LandingPageList extends TailwindElement(style) {
 
     render() {
         return html`
-        <div class=" w-[90%] sm:w-[80%] md:w-[70%] xl:w-[60%] 2xl:w-[50%] m-auto">
+        <div class="flex flex-col items-center w-[90%] sm:w-[80%] md:w-[70%] xl:w-[60%] 2xl:w-[50%] m-auto">
             
             <style>
                 ol {
@@ -61,12 +61,12 @@ export class LandingPageList extends TailwindElement(style) {
                     }
                 }
             </style>
-            <ol class="relative font-unna-700-it text-[17px] md:text-[25px] leading-5 md:leading-7 pl-[60px] md:pl-[72px] xl:pl-[92px]">
-                <li class="responsive-ordered-list-items">We <span class="text-primary">"walk and talk"</span> you through the entire development process.</li>
-                <li class="responsive-ordered-list-items">We <span class="text-primary">identify your opportunities</span>.</li>
+            <ol class="relative font-unna-700-it text-[17px] md:text-[23px] leading-5 md:leading-7 pl-[60px] md:pl-[72px] xl:pl-[92px]">
+                <li class="responsive-ordered-list-items">We <span class="text-primary">"walk and talk"</span> you through the Project Life Cycle.</li>
+                <li class="responsive-ordered-list-items">We identify your <span class="text-primary">public funding and investment</span> opportunities.</li>
                 <li class="responsive-ordered-list-items">We <span class="text-primary">build your proposal</span> and form your consortium.</li>
                 <li class="responsive-ordered-list-items">We <span class="text-primary">coordinate the project</span> and run the consortium.</li>
-                <li class="responsive-ordered-list-items">We <span class="text-primary">provide training</span> on all steps of the funding and project management cycle.</li>
+                <li class="responsive-ordered-list-items">We provide <span class="text-primary">training on all stages</span> of the Project Life Cycle.</li>
             </ol>
         </div>
         `;

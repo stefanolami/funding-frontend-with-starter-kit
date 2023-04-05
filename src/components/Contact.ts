@@ -13,8 +13,7 @@ export class Contact extends TailwindElement(style) {
             <!-- MOBILE CONTACT PAGE -->
 
             <div class=" md:hidden">
-                <!-- remove hidden -->
-                <h1 class="font-unna-700 text-[20px] text-center m-6">CONTACT</h1>
+                <h1 class="font-unna-700 text-[20px] text-center mb-6">CONTACT</h1>
                 <div class="flex flex-row justify-between w-[80%] m-auto">
                     <a href="">
                         <object data="../../images/icons/youtube.svg"></object>
@@ -36,7 +35,7 @@ export class Contact extends TailwindElement(style) {
                     </div>
                     <input type="text" class="contact-page-input w-full h-[28px]" placeholder="Subject">
                     <textarea class="contact-page-input w-full min-h-[112px] pt-2" placeholder="How can we be of service?"></textarea>
-                    <input type="submit" class="w-[134px] h-8 m-auto my-4 border-[1px] bg-primary rounded-full font-unna-700-it text-center text-[17px] text-white pt-0.5 mx-3">
+                    <input type="submit" class="w-[134px] h-8 m-auto my-4 border-[1px] bg-primary rounded-full font-unna-700-it text-center text-[17px] text-white pt-0.5 mx-3 cursor-pointer">
                 </form>
                 <div class="flex flex-col justify-around my-6 text-center">
                     <div class="flex flex-col justify-center items-center my-4">
@@ -65,16 +64,16 @@ export class Contact extends TailwindElement(style) {
             <!-- DESKTOP CONTACT PAGE -->
 
             <div class="hidden md:block">
-                <h1 class="font-unna-700 text-[39px] xl:text-[50px] text-center m-6">CONTACT</h1>
+                <h1 class="font-unna-700 text-[39px] xl:text-[50px] text-center mb-6">CONTACT</h1>
                 <div class="flex flex-row w-[90%] xl:w-[70%] m-auto">
                     <form class="flex flex-col flex-wrap items-center w-2/3 m-auto my-6 ">
                         <div class="flex flex-row w-full justify-between items-center">
-                            <input type="email" class="contact-page-input w-[48%] h-[44px]" placeholder="Email">
-                            <input type="text" class="contact-page-input w-[48%] h-[44px]" placeholder="Name">
+                            <input type="email" class="contact-page-input w-[49%] h-[40px]" placeholder="Email">
+                            <input type="text" class="contact-page-input w-[49%] h-[40px]" placeholder="Name">
                         </div>
-                        <input type="text" class="contact-page-input w-full h-[44px]" placeholder="Subject">
+                        <input type="text" class="contact-page-input w-full h-[40px]" placeholder="Subject">
                         <textarea class="contact-page-input w-full min-h-[300px] xl:min-h-[360px] pt-4" placeholder="How can we be of service?"></textarea>
-                        <input type="submit" class="w-48 h-12 m-auto my-10 border-[1px] bg-primary rounded-full font-unna-700-it text-center text-2xl text-white pt-0.5 mx-3">
+                        <input type="submit" class="w-48 h-12 m-auto my-10 border-[1px] bg-primary rounded-full font-unna-700-it text-center text-2xl text-white pt-0.5 mx-3 cursor-pointer">
                     </form>
                     <div class="flex flex-col justify-between w-1/3 ml-10 mb-16 text-center">
                         <div class="flex flex-col justify-center items-center my-4">

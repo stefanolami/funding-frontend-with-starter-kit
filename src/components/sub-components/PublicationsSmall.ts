@@ -13,12 +13,12 @@ export class PublicationsSmall extends TailwindElement(style) {
             <div class="">
                 <!-- add hidden -->
                 <div class="flex md:grid xl:hidden flex-col md:grid-cols-2 md:auto-cols-fr md:gap-4 mx-5 md:mx-10 lg:mx-20 my-4 md:my-10">
-                    <div class="grid grid-rows-[1fr_2fr] relative my-[6px] h-[300px] md:h-[315px] md:my-0 border border-primary text-primary-dark2">   <!-- PHOTO PUBLICATIONS BLOCK -->
+                    <div class="grid grid-rows-[1fr_2fr] relative my-[6px] h-[300px] md:h-[315px] md:my-0 text-primary-dark2">   <!-- PHOTO PUBLICATIONS BLOCK -->
                         <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-base text-primary-dark2">Funding Programmes</div>
                         <div class="h-[104px] w-full">
                             <img class="object-cover w-full h-full" src="../../images/publications/publications-agriculture-mobile.png" class="w-full" alt="Publication Image Preview">
                         </div>
-                        <div class="relative flex flex-col justify-center p-6 h-full">
+                        <div class="relative flex flex-col justify-center p-6 h-full border border-t-0 border-primary ">
                             <div class="absolute top-0 right-0 p-2 leading-4">
                                 <p class="font-unna-700 text-[13.5px] text-right">Alessandro Calissi</p>
                                 <p class="font-jose-300 text-[13px] text-right">April 20, 2020</p>
@@ -52,12 +52,12 @@ export class PublicationsSmall extends TailwindElement(style) {
                             <a href="publications-article.html" class="absolute bottom-2 right-2 w-[87px] md:w-[90px] h-8 md:h-[28px] flex items-center justify-center border-2 border-primary rounded-full font-jose-600 text-[10px] leading-[16px] hover:text-white hover:bg-primary">READ MORE</a>
                         </div>
                     </div>
-                    <div class="grid grid-rows-[1fr_2fr] relative my-[6px] h-[300px] md:h-[315px] md:my-0 border border-primary text-primary-dark2">   <!-- PHOTO PUBLICATIONS BLOCK -->
+                    <div class="grid grid-rows-[1fr_2fr] relative my-[6px] h-[300px] md:h-[315px] md:my-0 text-primary-dark2">   <!-- PHOTO PUBLICATIONS BLOCK -->
                         <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-base text-primary-dark2">Predicability in Politics</div>
                         <div class="h-[104px] w-full">
                             <img class="object-cover w-full h-full" src="../../images/publications/publications-germany-desktop.png" class="w-full" alt="Publication Image Preview">
                         </div>
-                        <div class="relative flex flex-col justify-center p-6 h-full">
+                        <div class="relative flex flex-col justify-center p-6 h-full border border-t-0 border-primary ">
                             <div class="absolute top-0 right-0 p-2 leading-4">
                                 <p class="font-unna-700 text-[13.5px] text-right">Alessandro Calissi</p>
                                 <p class="font-jose-300 text-[13px] text-right">April 20, 2020</p>

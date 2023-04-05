@@ -7,7 +7,7 @@
 @layer components {
 
     main {
-        @apply pb-[200px] md:pb-[426px] xl:pb-[360px]
+        @apply pb-[200px] md:pb-[426px] xl:pb-[360px]  mt-6 md:mt-16 xl:mt-36
     }
 
     .mobile-menu-rectangle {
@@ -59,7 +59,7 @@
     }
 
     .publications-menu-divs {
-        @apply border-2 border-primary-dark2 rounded-full md:rounded-none w-[48%] md:w-[24%] font-jose-600-it text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center my-1 md:mx-[1.5px] xl:mx-[1px] py-[7px] md:bg-primary-dark2  cursor-pointer
+        @apply border-2 border-primary-dark2 rounded-full md:rounded-none w-[48%] md:w-[24%] font-jose-300 text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center my-1 md:mx-[1.5px] xl:mx-[1px] py-[7px] md:bg-primary-dark2  cursor-pointer
     }
 
     .publications-menu-first {
@@ -71,7 +71,19 @@
     }
 
     .contact-page-input {
-        @apply border-2 border-primary focus:border-primary-dark2 bg-primary/[.06] focus:bg-primary-dark2/[.06]  font-jose-600-it text-[9px] md:text-sm leading-[9px] xl:leading-4 pl-[10px] md:pl-5 my-[14px]
+        @apply border-2 border-primary focus:border-primary-dark2 bg-primary/[.06] focus:bg-primary-dark2/[.06]  font-jose-600-it text-[9px] md:text-sm leading-[9px] xl:leading-4 pl-[10px] md:pl-5 my-1 md:my-[6px]
+    }
+
+    .newsroom-btn-default {
+        @apply absolute bottom-2 right-2 w-[87px] h-8 md:w-24 md:h-7 xl:w-28 xl:h-8 flex justify-center items-center pt-[2px] md:pt-[3px] border border-white rounded-full font-jose-600 text-white text-[10px] leading-3 md:text-[10.5px] md:leading-[14.5px] xl:text-[11.5px] hover:text-primary-dark2 hover:bg-white hover:border-white cursor-pointer
+    }
+
+    .newsroom-btn-white {
+        @apply absolute bottom-2 right-2 w-[87px] h-8 md:w-24 md:h-7 xl:w-28 xl:h-8 flex justify-center items-center pt-[2px] md:pt-[3px] border border-primary-dark2 rounded-full font-jose-600 text-primary-dark2 text-[10px] leading-3 hover:text-white hover:bg-primary hover:border-primary cursor-pointer
+    }
+
+    .newsroom-btn-pic {
+        @apply absolute bottom-2 right-2 w-[87px] h-8 md:w-24 md:h-7 xl:w-28 xl:h-8 flex justify-center items-center pt-[2px] md:pt-[3px] border border-white rounded-full font-jose-600 text-white text-[10px] leading-3 hover:text-primary-dark2 hover:bg-white hover:border-white cursor-pointer
     }
 
     .publications-article-p {
@@ -83,7 +95,7 @@
     }
 
     .publications-article-h2-subtitle {
-        @apply w-[92%] md:w-full xl:w-[75%] mx-auto mt-4 md:mt-7 font-jose-300-it text-center text-[15px] md:text-[19px] leading-[21px] md:leading-[19px]
+        @apply w-[92%] md:w-full xl:w-[75%] mx-auto mt-4 md:mt-7 font-jose-300-it text-center text-[15px] md:text-[19px] leading-[21px] md:leading-[23px]
     }
 
     .publications-article-h4 {
@@ -198,6 +210,11 @@ textarea:focus {
 .font-jose-200 {
     font-family: 'Josefin Sans';
     font-weight: 200;
+}
+
+.font-jose-300 {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
 }
 
 .font-jose-300-it {
