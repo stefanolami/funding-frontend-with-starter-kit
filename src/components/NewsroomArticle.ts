@@ -10,9 +10,9 @@ export class NewsroomArtcile extends TailwindElement(style) {
     render() {
         return html`
             <main>
-                <div class="w-[90%] xl:w-4/5 mx-auto">
-                    <p class="w-2/5 md:w-full md:pl-[82%] xl:pl-[88%] mx-auto text-center md:text-right font-jose-300-it md:font-jose-400-it text-[13px] md:text-[15px] leading-[13px] md:leading-[15px]">PRESS RELEASE 15th of October 2020 Brussels</p>
-                    <h1 class="w-[80%] mx-auto mt-5 md:mt-8 font-unna-700 text-center text-[20px] md:text-[39px] xl:text-[50px] leading-[23px] md:leading-[45px] xl:leading-[57px]">TIME&PLACE CONSULTING COLLABORATION WITH PR SIGNAL IN INDIA</h1>
+                <div class="relative w-[90%] xl:w-4/5 mx-auto">
+                    <p class="absolute -top-3 right-0 md:-top-7 xl:-top-20 -xl:right-6 w-3/5 md:w-full md:pl-[82%] xl:pl-[88%] mx-auto text-center md:text-right font-jose-300-it md:font-jose-400-it text-[13px] md:text-[15px] leading-[13px] md:leading-[15px]">PRESS RELEASE 15th of October 2020 Brussels</p>
+                    <h1 class="w-[80%] mx-auto pt-7 md:pt-4 xl:pt-0 font-unna-700 text-center text-[20px] md:text-[39px] xl:text-[50px] leading-[23px] md:leading-[45px] xl:leading-[57px]">TIME&PLACE CONSULTING COLLABORATION WITH PR SIGNAL IN INDIA</h1>
                     <p class="w-[95%] md:w-4/5 md:mx-auto mt-5 md:mt-7 xl:mt-16 font-jose-400-it text-[14px] md:text-[17px] leading-4 md:leading-[21px] text-center">Time&Place Consulting sets up EU-India trade and business development division with satellite office in Kolkata through its cooperation with PR Signal</p>
                     <div class="md:w-4/5 xl:w-[70%] md:mx-auto md:mt-10 xl:mt-20 font-jose-400 text-[15px] md:text-[17px] leading-[17px] md:leading-[21px]">
                         <p class="mt-5">On 15 October 2020, Time&Place Consulting and PR Signal entered into an agreement to cooperate with the purpose of providing business 
