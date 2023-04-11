@@ -42,128 +42,152 @@ export class ServicesBig extends TailwindElement(style) {
                     <img id="tablet-services-logo" class="${classMap({'hidden': this.activeArr.includes(true), 'block': !this.activeArr.includes(true)})} w-[425px] absolute z-10 top-20 xl:top-40 left-[178px] xl:left-80" src="../../images/our-services/T&P-Logo-services-tablet.png" alt="">
 
 
-                    <div class="${classMap({'hidden': this.activeArr[0] == false, 'block': this.activeArr[0] == true})} absolute tablet-services-div tablet-project-initiation top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title  text-mygreen">BRAINSTORMING</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[0] == false, 'flex': this.activeArr[0] == true})} tablet-services-div tablet-project-initiation">
+                        <div>
+                            <h6 class="tablet-services-div-title  text-mygreen">BRAINSTORMING</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Creativity process to gather ideas, thoughts and inspiration</li>
+                                <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                            </ul>
+                        </div>                      
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[1] == false, 'block': this.activeArr[1] == true})} absolute tablet-services-div tablet-project-initiation top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-mygreen">IDEA DEVELOPMENT</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Modification of the ideas / sorting out the best opportunities from the idea catalogue</li>
-                            <li>What is possible, who is the customer, is there added value for your customer/end-user</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[1] == false, 'flex': this.activeArr[1] == true})} tablet-services-div tablet-project-initiation">
+                        <div>
+                            <h6 class="tablet-services-div-title text-mygreen">IDEA DEVELOPMENT</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Modification of the ideas / sorting out the best opportunities from the idea catalogue</li>
+                                <li>What is possible, who is the customer, is there added value for your customer/end-user</li>
+                            </ul>
+                        </div>                       
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[2] == false, 'block': this.activeArr[21] == true})} absolute tablet-services-div tablet-project-initiation top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-mygreen">FUNDING MATCH</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Searching the funding landscape for opportunities matching your idea</li>
-                            <li>Evaluating opportunities according to your business strategy</li>
-                            <li>Report including evaluation of the opportunities and funding scheme</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[2] == false, 'flex': this.activeArr[2] == true})} tablet-services-div tablet-project-initiation">
+                        <div>
+                            <h6 class="tablet-services-div-title text-mygreen">FUNDING MATCH</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Searching the funding landscape for opportunities matching your idea</li>
+                                <li>Evaluating opportunities according to your business strategy</li>
+                                <li>Report including evaluation of the opportunities and funding scheme</li>
+                            </ul>
+                        </div>                       
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[3] == false, 'block': this.activeArr[3] == true})} absolute tablet-services-div tablet-project-planning top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-primary-focus">IDEA TO PROJECT</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Breaking the idea down to major development stages, showing where or what development is needed to go from state-of-the-art 
-                                to the expected outcomes and results
-                            </li>
-                            <li>Drafting first project structure</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[3] == false, 'flex': this.activeArr[3] == true})} tablet-services-div tablet-project-planning">
+                        <div>
+                            <h6 class="tablet-services-div-title text-primary-focus">IDEA TO PROJECT</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Breaking the idea down to major development stages, showing where or what development is needed to go from state-of-the-art 
+                                    to the expected outcomes and results
+                                </li>
+                                <li>Drafting first project structure</li>
+                            </ul>
+                        </div>                       
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[4] == false, 'block': this.activeArr[4] == true})} absolute tablet-services-div tablet-project-planning top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-primary-focus">PROJECT DEVELOPMENT</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Building project structure and defining work-packages and tasks</li>
-                            <li>Identifying available knowledge, assigning  task and needed knowledge from new partners</li>
-                            <li>Partner search and Consortium building</li>                           
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[4] == false, 'flex': this.activeArr[4] == true})} tablet-services-div tablet-project-planning">
+                        <div>
+                            <h6 class="tablet-services-div-title text-primary-focus">PROJECT DEVELOPMENT</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Building project structure and defining work-packages and tasks</li>
+                                <li>Identifying available knowledge, assigning  task and needed knowledge from new partners</li>
+                                <li>Partner search and Consortium building</li>                           
+                            </ul>
+                        </div>                      
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[5] == false, 'block': this.activeArr[5] == true})} absolute tablet-services-div tablet-project-planning top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-primary-focus">PROJECT PROPOSAL</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Managing the writing process, building project budget, proofreading input from partners, verification of alignment with EU national 
-                                and regional policy, ongoing contact with the relevant authorities
-                            </li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[5] == false, 'flex': this.activeArr[5] == true})} tablet-services-div tablet-project-planning">
+                        <div>
+                            <h6 class="tablet-services-div-title text-primary-focus">PROJECT PROPOSAL</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Managing the writing process, building project budget, proofreading input from partners, verification of alignment with EU national 
+                                    and regional policy, ongoing contact with the relevant authorities
+                                </li>
+                            </ul>
+                        </div>                       
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[6] == false, 'block': this.activeArr[6] == true})} absolute tablet-services-div tablet-project-execution top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-primary-dark2/80">CONTRACT NEGOTIATION</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Responding to funding offer modifications in project description, according to offer</li>
-                            <li>Finalisation of the Consortium agreement</li>
-                            <li>Signing funding contracts and Consortium agreement by all partners</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[6] == false, 'flex': this.activeArr[6] == true})} tablet-services-div tablet-project-execution">
+                        <div>
+                            <h6 class="tablet-services-div-title text-primary-dark2/80">CONTRACT NEGOTIATION</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Responding to funding offer modifications in project description, according to offer</li>
+                                <li>Finalisation of the Consortium agreement</li>
+                                <li>Signing funding contracts and Consortium agreement by all partners</li>
+                            </ul>
+                        </div>                        
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[7] == false, 'block': this.activeArr[7] == true})} absolute tablet-services-div tablet-project-execution top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT IMPLEMENTATION</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Progress monitoring and management, including organising project meetings and the general assembly</li>
-                            <li>Financial and administrative project management, including communication with funding authorities</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[7] == false, 'flex': this.activeArr[7] == true})} tablet-services-div tablet-project-execution">
+                        <div>
+                            <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT IMPLEMENTATION</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Progress monitoring and management, including organising project meetings and the general assembly</li>
+                                <li>Financial and administrative project management, including communication with funding authorities</li>
+                            </ul>
+                        </div>
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[8] == false, 'block': this.activeArr[8] == true})} absolute tablet-services-div tablet-project-execution top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT COMMUNICATION</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Internal communication management – e.g. data storage and email</li>
-                            <li>External communication setup, dissemination and exploitation activities – e.g. social media, newsletters, websites</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[8] == false, 'flex': this.activeArr[8] == true})} tablet-services-div tablet-project-execution">
+                        <div>
+                            <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT COMMUNICATION</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Internal communication management – e.g. data storage and email</li>
+                                <li>External communication setup, dissemination and exploitation activities – e.g. social media, newsletters, websites</li>
+                            </ul>
+                        </div>                       
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[9] == false, 'block': this.activeArr[9] == true})} absolute tablet-services-div tablet-project-closure top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-mygrey">COMPLETION OF PROJECT</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Final reporting</li>
-                            <li>Evaluation and measurement of main results compared to predefined expected outcome, listing and description of unexpected findings and side-results</li>
-                            <li>Communication strategy for results</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[9] == false, 'flex': this.activeArr[9] == true})} tablet-services-div tablet-project-closure">
+                        <div>
+                            <h6 class="tablet-services-div-title text-mygrey">COMPLETION OF PROJECT</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Final reporting</li>
+                                <li>Evaluation and measurement of main results compared to predefined expected outcome, listing and description of unexpected findings and side-results</li>
+                                <li>Communication strategy for results</li>
+                            </ul>
+                        </div>                      
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[10] == false, 'block': this.activeArr[10] == true})} absolute tablet-services-div tablet-project-closure top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-mygrey">MARKET INTRODUCTION</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Product introduction to market – i.e. development of business plan, market penetration strategy, marketing management strategy and product assortment (market) strategy</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[10] == false, 'flex': this.activeArr[10] == true})} tablet-services-div tablet-project-closure">
+                        <div>
+                            <h6 class="tablet-services-div-title text-mygrey">MARKET INTRODUCTION</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Product introduction to market – i.e. development of business plan, market penetration strategy, marketing management strategy and product assortment (market) strategy</li>
+                            </ul>
+                        </div>                      
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
-                    <div class="${classMap({'hidden': this.activeArr[11] == false, 'block': this.activeArr[11] == true})} absolute tablet-services-div tablet-project-closure top-32 xl:top-[200px] left-[240px] xl:left-[330px] z-20 w-[312px] xl:w-[402px] xl:h-[340px]">
-                        <h6 class="tablet-services-div-title text-mygrey">NEW POSSIBILITIES</h6>
-                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
-                            <li>Inspiration for further development – i.e. start the process all over again, with or without the brainstorming to extract and expand on the ideas coming out from the project.</li>
-                        </ul>
-                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
+                    <div class="${classMap({'hidden': this.activeArr[11] == false, 'flex': this.activeArr[11] == true})} tablet-services-div tablet-project-closure">
+                        <div>
+                            <h6 class="tablet-services-div-title text-mygrey">NEW POSSIBILITIES</h6>
+                            <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                                <li>Inspiration for further development – i.e. start the process all over again, with or without the brainstorming to extract and expand on the ideas coming out from the project.</li>
+                            </ul>
+                        </div>                   
+                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
