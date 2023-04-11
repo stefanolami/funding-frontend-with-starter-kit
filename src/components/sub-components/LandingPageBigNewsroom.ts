@@ -24,7 +24,7 @@ export class LandingPageBigNewsroom extends TailwindElement(style) {
                             <a href="newsroom-article.html" class="newsroom-btn-default">READ MORE</a>
                         </div>
                         <div class="relative h-[162px] xl:h-[328px] border-4 border-primary">   <!-- INTERACTIVE MAP NEWS BLOCK -->
-                            <a href="#">
+                            <a href="./who-we-are.html">
                                 <div class="relative w-2/5 xl:w-2/4 m-auto mt-24 xl:mt-48 z-10 flex justify-center text-center px-3 xl:px-4 py-2 xl:py-3 bg-primary-dark2/[.7] rounded-full font-jose-400 text-white text-base">Have a look at our interactive map!</div>
                             </a>
                             <img class="xl:hidden absolute top-0 right-0 object-cover h-full w-full" src="../../../images/landing page/landing-page-map.png" alt="">
