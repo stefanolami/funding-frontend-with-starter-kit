@@ -11,8 +11,8 @@ export class WhyUs extends TailwindElement(style) {
         return html`
             <main>
                 <div class=" w-80 max-w-[90%] md:w-[600px] xl:w-[862px] m-auto mb-40 xl:mb-60">
-                    <h1 class="font-unna-700 text-xl md:text-3xl xl:text-[50px] xl:leading-[75px] text-center mb-4 md:mb-10 xl:mb-20">WHY US</h1>
-                    <p class="mb-6 md:mb-16 xl:mb-28 font-jose-400-it text-[14px] leading-[16px] md:text-[18px] md:leading-[21px] xl:text-[23px] xl:leading-[26px] text-center mx-auto">No matter if you are big business, SME, NGO, local or regional body, government, entrepreneur, academic institution or ambitious citizen, if you can answer yes to any of the questions below, why not contact us so we can jointly explore further?</p>
+                    <h1 class="font-unna-700 text-xl md:text-[39px] md:leading-[45px] xl:text-[50px] xl:leading-[75px] text-center mb-4 md:mb-10 xl:mb-20">WHY US</h1>
+                    <p class="mb-6 md:mb-16 xl:mb-28 font-jose-400-it text-[14px] leading-[16px] md:text-[21px] md:leading-[26px] xl:text-[23px] xl:leading-[26px] text-center mx-auto">No matter if you are big business, SME, NGO, local or regional body, government, entrepreneur, academic institution or ambitious citizen, if you can answer yes to any of the questions below, why not contact us so we can jointly explore further?</p>
                     <h3 class="font-unna-700-it text-xl xl:text-[25px] mt-7 xl:mt-9 mb-3 xl:mb-4">Do you have great ideas?</h3>
                     <p class="font-jose-400 text-[15px] xl:text-[17px] xl:leading-[21px]">
                         With a great innovative idea, we will help develop your ambition into profitable business; no matter whether it is a new

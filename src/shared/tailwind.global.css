@@ -172,6 +172,22 @@
     .services-project-closure.unfocused {
         @apply bg-mygrey/80
     }
+
+    .map-btn {
+        @apply hover:text-primary/60 cursor-pointer w-[245px]
+    }
+
+    .map-btn-selected {
+        @apply text-primary cursor-pointer w-[245px]
+    }
+
+    .map-card-p {
+        @apply font-jose-600 text-[19px] leading-[22px] text-primary-dark2/60 mt-3
+    }
+
+    .map-card-span {
+        @apply font-jose-600 text-[19px] leading-[22px] text-primary-dark2
+    }
 }
 
 body {
