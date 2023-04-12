@@ -118,6 +118,12 @@ const mapCardIndividuals = document.querySelector('#map-card-individuals');
 const mapCardCohesion = document.querySelector('#map-card-cohesion');
 const mapCardRrf = document.querySelector('#map-card-rrf');
 const mapCardClose = document.querySelector('#map-card-close');
+const mapBrusselsDiv = document.querySelector('#map-brussels-div');
+const mapBrusselsIcon = document.querySelector('#map-brussels-icon');
+const mapBrusselsIconHovered = document.querySelector('#map-brussels-icon-hovered');
+const mapBrusselsIconSelected = document.querySelector('#map-brussels-icon-selected');
+
+
 
 const countriesDataArr = Object.values(countriesData);
 
@@ -134,25 +140,46 @@ function fillCard(index) {
     mapCardRrf.textContent = countriesDataArr[index].rrf;
 }
 
-
-// CLICK LISTENER
-mapBtns.forEach((btn, index) => btn.addEventListener('click', () => {
-    const oldIndex = mapBtns.findIndex(element => element.classList.contains('map-btn-selected'))
-    if (oldIndex !== -1) {
-        mapBtns[oldIndex].classList.replace('map-btn-selected', 'map-btn')
+function handleSelectedLayer(index) {
+    if (selected != undefined && selected != 16) {
+        mapBtns[selected].classList.replace('map-btn-selected', 'map-btn')
+        map.removeLayer(countriesGroupSelected[selected])
+    } else if (selected == 16) {
+        mapBrusselsIconSelected.classList.add('hidden');
+        mapBrusselsIcon.classList.remove('hidden')       
     }
     mapBtns[index].classList.replace('map-btn', 'map-btn-selected')
-    if (selected !== undefined) {
-        map.removeLayer(countriesGroupSelected[selected])
-    }
-    selected = index;
-    map.addLayer(countriesGroupSelected[selected])
-    fillCard(index)
+    map.addLayer(countriesGroupSelected[index])
     mapCard.classList.remove('hidden')
+}
+
+function handleBrussels(event) {
+    if (event == 'click') {
+        if (selected != undefined && selected != 16) {
+            mapBtns[selected].classList.replace('map-btn-selected', 'map-btn')
+            map.removeLayer(countriesGroupSelected[selected])
+        }
+        mapCard.classList.remove('hidden')
+        fillCard(16)
+        mapBrusselsIcon.classList.add('hidden')
+        mapBrusselsIconSelected.classList.remove('hidden');
+        selected = 16;
+    } else if (event == 'mouseover') {
+        mapBrusselsIcon.style.fill = '#399AC2'
+    } else if (event == 'mouseout') {
+        mapBrusselsIcon.style.fill = '#399AC299'
+    }
+}
+
+
+// MAP CLICK LISTENER
+mapBtns.forEach((btn, index) => btn.addEventListener('click', () => {
+    handleSelectedLayer(index);
+    fillCard(index);
+    selected = index;
 }))
 
-
-// MOUSOVER LISTENER
+// MAP MOUSOVER LISTENER
 mapBtns.forEach((btn, index) => btn.addEventListener('mouseover', () => {
     if (hovered !== undefined) {
         map.removeLayer(countriesGroupHovered[hovered])
@@ -163,8 +190,20 @@ mapBtns.forEach((btn, index) => btn.addEventListener('mouseover', () => {
     }
 }))
 
-
-// CLOSE MAP
+// CLOSE MAP CARD
 mapCardClose.addEventListener('click', () => {
     mapCard.classList.add('hidden')
+})
+
+// BRUSSELS ADMINISTRATED LISTENERS
+mapBrusselsDiv.addEventListener('click', () => {
+    handleBrussels('click')
+})
+
+mapBrusselsDiv.addEventListener('mouseover', () => {
+    handleBrussels('mouseover')
+})
+
+mapBrusselsDiv.addEventListener('mouseout', () => {
+    handleBrussels('mouseout')
 })

@@ -127,4 +127,12 @@ export const countriesData = {
         cohesion: "1 147",
         rrf: "3 461 grants"
     },
+    brussels: {
+        name: "EU Administrated",
+        education: "5.1% GNI (2020)",
+        ease: "Ranked 27 out of 190, score 78.7 (2020)",
+        individuals: "88% of population (2020)",
+        cohesion: "1 147",
+        rrf: "3 461 grants"
+    }
 }

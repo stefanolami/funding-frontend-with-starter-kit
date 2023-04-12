@@ -50,7 +50,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                             </ul>
                         </div>                      
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -62,7 +62,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>What is possible, who is the customer, is there added value for your customer/end-user</li>
                             </ul>
                         </div>                       
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -75,7 +75,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>Report including evaluation of the opportunities and funding scheme</li>
                             </ul>
                         </div>                       
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen hover:text-white hover:bg-mygreen border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -89,7 +89,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>Drafting first project structure</li>
                             </ul>
                         </div>                       
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -102,7 +102,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>Partner search and Consortium building</li>                           
                             </ul>
                         </div>                      
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -115,7 +115,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 </li>
                             </ul>
                         </div>                       
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary hover:text-white hover:bg-primary border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -128,7 +128,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>Signing funding contracts and Consortium agreement by all partners</li>
                             </ul>
                         </div>                        
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -140,7 +140,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>Financial and administrative project management, including communication with funding authorities</li>
                             </ul>
                         </div>
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -152,7 +152,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>External communication setup, dissemination and exploitation activities – e.g. social media, newsletters, websites</li>
                             </ul>
                         </div>                       
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 hover:text-white hover:bg-primary-dark2 border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -165,7 +165,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>Communication strategy for results</li>
                             </ul>
                         </div>                      
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -176,7 +176,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>Product introduction to market – i.e. development of business plan, market penetration strategy, marketing management strategy and product assortment (market) strategy</li>
                             </ul>
                         </div>                      
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>
@@ -187,7 +187,7 @@ export class ServicesBig extends TailwindElement(style) {
                                 <li>Inspiration for further development – i.e. start the process all over again, with or without the brainstorming to extract and expand on the ideas coming out from the project.</li>
                             </ul>
                         </div>                   
-                        <a  href="./contact.html" class="flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
+                        <a  href="./contact.html" class="flex mx-auto w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey hover:text-white hover:bg-mygrey border-[3px] rounded-full">
                             <div>GET IN TOUCH</div>
                         </a>
                     </div>

@@ -178,7 +178,7 @@
     }
 
     .tablet-services-div {
-        @apply absolute flex-col justify-between items-center top-[106px] xl:top-[180px] left-[240px] xl:left-[330px] z-20 w-[312px] h-[350px] xl:w-[402px] xl:h-[320px]
+        @apply absolute flex-col justify-between items-center top-[116px] xl:top-[180px] left-[240px] xl:left-[330px] z-20 w-[312px] h-[320px] xl:w-[402px] xl:h-[320px]
     }
 
     .tablet-desktop-whoweare-photo-div {
@@ -190,7 +190,7 @@
     }
 
     .tablet-services-div-title {
-        @apply mb-5 font-unna-700 text-[31px] leading-[36px] text-center
+        @apply mb-5 font-unna-700 text-[31px] leading-[31px] text-center
     }
     
 }
