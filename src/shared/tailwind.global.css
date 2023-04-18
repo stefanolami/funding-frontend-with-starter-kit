@@ -192,6 +192,14 @@
     .tablet-services-div-title {
         @apply mb-5 font-unna-700 text-[31px] leading-[31px] text-center
     }
+
+    .who-we-are-card-p {
+        @apply font-jose-600 text-[15px] leading-[15px] text-primary-dark2/60 mt-3
+    }
+
+    .who-we-are-card-span {
+        @apply font-jose-600 text-[15px] leading-[15px] text-primary-dark2
+    }
     
 }
 

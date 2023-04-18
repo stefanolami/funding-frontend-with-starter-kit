@@ -16,6 +16,7 @@ export class WhoWeAre extends TailwindElement(style) {
                 <h1 class="w-[90%] md:w-[640px] xl:w-[800px] mx-auto mb-4 md:mb-9 xl:mb-12 mt-16 font-unna-700 text-[20px] leading-[23px] md:text-[39px] md:leading-[45px] xl:text-[50px] xl:leading-[57px] text-center">OUR INTERNATIONAL PRESENCE WITH LOCAL ACCESS</h1>
                 <p class="w-[85%] md:w-[600px] xl:w-[650px] mx-auto font-jose-400-it text-[14px] leading-[16px] md:text-[21px] md:leading-[26px] xl:text-[23px] xl:leading-[26px] text-center">In the countries listed we can assist you with national funding in your official language, as well as with EU funding</p>
                 <div id="map-placeholder" class="hidden md:block h-[1205px] xl:h-[1020px] w-full"></div>
+                <who-we-are-mobile></who-we-are-mobile>
             </main>           
         `;
     }
