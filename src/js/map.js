@@ -190,6 +190,13 @@ mapBtns.forEach((btn, index) => btn.addEventListener('mouseover', () => {
     }
 }))
 
+// MAP MOUSEOUT LISTENER
+mapBtns.forEach((btn, index) => btn.addEventListener('mouseout', () => {
+    if (hovered !== undefined) {
+        map.removeLayer(countriesGroupHovered[hovered])
+    }
+}))  
+
 // CLOSE MAP CARD
 mapCardClose.addEventListener('click', () => {
     mapCard.classList.add('hidden')
