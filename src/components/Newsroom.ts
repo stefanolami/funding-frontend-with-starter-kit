@@ -9,10 +9,8 @@ export class Newsroom extends TailwindElement(style) {
 
     render() {
         return html`
-            <main>
-                <newsroom-mobile></newsroom-mobile>
-                <newsroom-big></newsroom-big>
-            </main>           
+            <newsroom-mobile></newsroom-mobile>
+            <newsroom-big></newsroom-big>          
         `;
     }
 }

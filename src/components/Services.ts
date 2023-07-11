@@ -9,9 +9,7 @@ export class Services extends TailwindElement(style) {
 
     render() {
         return html`
-            <main class="hidden md:block">
-                <services-big></services-big>
-            </main>           
+            <services-big class="hidden md:block"></services-big>                
         `;
     }
 }

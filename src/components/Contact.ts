@@ -9,7 +9,7 @@ export class Contact extends TailwindElement(style) {
 
   render() {
     return html`
-        <main>
+        <section>
             <!-- MOBILE CONTACT PAGE -->
 
             <div class=" md:hidden">
@@ -116,7 +116,7 @@ export class Contact extends TailwindElement(style) {
 
             <!-- END DESKTOP CONTACT PAGE -->
 
-        </main>
+        </section>
     `;
   }
 }

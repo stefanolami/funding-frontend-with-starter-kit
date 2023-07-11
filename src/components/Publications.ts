@@ -9,11 +9,9 @@ export class Publications extends TailwindElement(style) {
 
     render() {
         return html`
-            <main>
-                <publications-menu></publications-menu>
-                <publications-small></publications-small>
-                <publications-desktop></publications-desktop>
-            </main>           
+            <publications-menu></publications-menu>
+            <publications-small></publications-small>
+            <publications-desktop></publications-desktop>          
         `;
     }
 }
