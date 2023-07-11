@@ -26,7 +26,7 @@ export class Header extends TailwindElement(style) {
 
             <!-- TABLET / DESKTOP HEADER -->
 
-            <div class="hidden ${classMap({'md:hidden': this.withImg == true, 'md:flex': this.withImg == false})} justify-between items-center select-none md:bg-transparent pb-2 md:pt-2 md:pb-4 xl:pt-3 xl:pb-7">
+            <div class="hidden ${classMap({'md:hidden': this.withImg, 'md:flex': !this.withImg})} justify-between items-center select-none md:bg-transparent pb-2 md:pt-2 md:pb-4 xl:pt-3 xl:pb-7">
                 <a class="xl:hidden ml-7" href="./home.html">
                     <img class="w-[170px] xl:hidden" src="../../images/icons/T&Pfunding-logo.svg" alt="T&P Funding logo">
                 </a>
@@ -46,9 +46,9 @@ export class Header extends TailwindElement(style) {
 
             <!-- TABLET / DESKTOP HEADER WITH PICTURE -->
 
-            <div id="header-with-hands" class="relative hidden ${classMap({'md:hidden': this.withImg == false, 'md:flex': this.withImg == true})} flex-col justify-between ">
-                <img class="${classMap({'block': this.withDoors == false, 'hidden': this.withDoors == true})} z-[-10] w-full" src="../../images/landing page/header-1.png" alt="Header Image">
-                <img class="${classMap({'hidden': this.withDoors == false, 'block': this.withDoors == true})} z-[-10] w-full" src="../../images/newsroom/newsroom-doors-desktop.png" alt="Header Image">
+            <div id="header-with-hands" class="relative hidden ${classMap({'md:hidden': !this.withImg, 'md:flex': this.withImg})} flex-col justify-between ">
+                <img class="${classMap({'block': !this.withDoors, 'hidden': this.withDoors})} z-[-10] w-full" src="../../images/landing page/header-1.png" alt="Header Image">
+                <img class="${classMap({'hidden': !this.withDoors, 'block': this.withDoors})} z-[-10] w-full" src="../../images/newsroom/newsroom-doors-desktop.png" alt="Header Image">
                 <div class="absolute w-full flex justify-between items-center select-none bg-transparent xl:mt-4">
                     <a class="xl:hidden ml-7" href="./home.html">
                         <img class="w-[200px] xl:hidden" src="../../images/icons/T&P-Logo-Funding-long-text-white.svg" alt="T&P Funding logo">
@@ -87,7 +87,7 @@ export class Header extends TailwindElement(style) {
                             <div class="mobile-menu-rectangle"></div>
                         </div>
                     </div>
-                    <nav id="mobile-menu-nav" class="${classMap({'hidden': this.showMenu == false, 'block': this.showMenu == true})} absolute z-20 w-[148px] md:w-[500px] h-[352px] md:h-full top-[-4px] right-0 flex-col justify-between border-primary border-[3px] rounded-lg rounded-tr-none md:border-none bg-white md:bg-transparent">    
+                    <nav id="mobile-menu-nav" class="${classMap({'hidden': !this.showMenu, 'block': this.showMenu})} absolute z-20 w-[148px] md:w-[500px] h-[352px] md:h-full top-[-4px] right-0 flex-col justify-between border-primary border-[3px] rounded-lg rounded-tr-none md:border-none bg-white md:bg-transparent">    
                         <div @click=${this.toggleMenu} id="mobile-menu-close" class="ml-[85%] mt-0 font-nunito-400  text-primary text-lg md:hidden">x</div>
                         <ul class="flex flex-col md:flex-row justify-evenly h-[90%] ml-6 mb-3 font-jose-400-it text-primary-dark text-base">
                             <li><a href="./newsroom.html">Newsroom</a></li>
