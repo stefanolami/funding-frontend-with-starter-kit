@@ -8,11 +8,8 @@ import style from "../shared/tailwind.global.css";
 @customElement("my-header")
 export class Header extends TailwindElement(style) {
 
-    @property({type: String, attribute: 'show-menu', reflect: true})
-    showMenu: string = 'false'
-
-    @property({type: String, attribute: 'menu-open', reflect: true})
-    menuOpen: string = 'false'
+    @state()
+    showMenu: boolean = false
 
     @property({type: Boolean, attribute: 'with-img'})
     withImg: boolean = false
@@ -83,7 +80,7 @@ export class Header extends TailwindElement(style) {
                     <img class="w-[138px] h-[43px] ml-4" src="../../images/icons/T&Pfunding-logo.svg" alt="">
                 </a>                
                 <div id="mobile-menu-div" class="relative mr-3">
-                    <div  @click=${this.toggleMenu} id="mobile-menu" class="select-none hidden">
+                    <div  @click=${this.toggleMenu} id="mobile-menu" class="select-none md:hidden">
                         <object data="../../images/icons/mobile-menu-circle.svg" width="48" height="35"></object>
                         <div class="absolute top-0 flex flex-col w-full h-[35px] justify-center items-center">
                             <div class="mobile-menu-rectangle"></div>
@@ -91,17 +88,9 @@ export class Header extends TailwindElement(style) {
                             <div class="mobile-menu-rectangle"></div>
                         </div>
                     </div>
-                    <button id="mobile-menu" class="select-none md:hidden w-[35px] h-[35px] relative" aria-expanded=${this.showMenu}>
-                        <img id="hamburger-bg" src="/images/icons/hamburger-bg.png" alt="Hamburger background" class="w-[35px] absolute top-0 -z-10" />
-                        <svg @click=${this.toggleMenu} class="hamburger z-50" viewBox="0 0 100 100" width="35">
-                            <rect class="hamburger-line top z-50" fill="white" width="50" height="6" x="25" y="30" rx="3"></rect>
-                            <rect class="hamburger-line middle z-50" fill="white" width="50" height="6" x="25" y="45" rx="3"></rect>
-                            <rect class="hamburger-line bottom z-50"  fill="white" width="50" height="6" x="25" y="60" rx="3"></rect>
-                        </svg>
-                    </button>
-                    <nav id="mobile-menu-nav" data-open=${this.menuOpen} class="${classMap({'invisible': this.showMenu == 'false', 'visible': this.showMenu == 'true'})} z-20 absolute w-[180px] top-0 -right-1 flex-col justify-between border-primary border-[3px] rounded-lg rounded-tr-none md:border-none">    
-                        <div @click=${this.toggleMenu} id="mobile-menu-close" class="ml-[85%] mt-0 h-[28px] font-nunito-400 text-primary text-lg md:hidden opacity-0">x</div>
-                        <ul class="flex flex-col md:flex-row justify-evenly h-[370px] pl-6 font-jose-400-it text-primary-dark text-base bg-white rounded-b-lg">
+                    <nav id="mobile-menu-nav" class="${classMap({'hidden': !this.showMenu, 'block': this.showMenu})} absolute z-20 w-[148px] md:w-[500px] h-[352px] md:h-full top-[-4px] right-0 flex-col justify-between border-primary border-[3px] rounded-lg rounded-tr-none md:border-none bg-white md:bg-transparent">    
+                        <div @click=${this.toggleMenu} id="mobile-menu-close" class="ml-[85%] mt-0 font-nunito-400  text-primary text-lg md:hidden">x</div>
+                        <ul class="flex flex-col md:flex-row justify-evenly h-[90%] ml-6 mb-3 font-jose-400-it text-primary-dark text-base">
                             <li><a href="./newsroom.html">Newsroom</a></li>
                             <li><a href="./services.html">Services</a></li>
                             <li><a href="./publications.html">Publications</a></li>
@@ -116,21 +105,9 @@ export class Header extends TailwindElement(style) {
         `;
     }
 
-    closeMenu() {
-        this.showMenu = 'false'
-        console.log('closing')
-    }
 
     toggleMenu() {
-        if (this.showMenu == 'false') {
-            this.showMenu = 'true';
-            this.menuOpen = 'true'
-        } else if (this.showMenu == 'true') {
-            this.menuOpen = 'false'
-            setTimeout(() => {
-                this.showMenu = 'false';
-            }, 200)
-        }
+        this.showMenu = !this.showMenu
     }
 
 }

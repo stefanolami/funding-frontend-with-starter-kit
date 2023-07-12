@@ -175,6 +175,14 @@
         @apply bg-mygrey/80
     }
 
+    .skip-link {
+        @apply absolute top-0 w-[30%] md:w-[20%] left-[35%] md:left-[40%] bg-primary p-1 rounded-md font-jose-600 text-white text-xs md:text-sm xl:text-base text-center -translate-y-full
+    }
+
+    .skip-link:focus {
+        @apply translate-y-0
+    }
+
     .tablet-services-div {
         @apply absolute flex-col justify-between items-center top-[116px] xl:top-[180px] left-[240px] xl:left-[330px] z-20 w-[312px] h-[320px] xl:w-[402px] xl:h-[320px]
     }
@@ -304,3 +312,67 @@ textarea:focus {
     background: #399AC299;
 }
 
+
+
+/* HAMBURGER ANIMATION */
+
+.hamburger-line {
+    transition: 
+        y 200ms ease-in 200ms,
+        rotate 200ms ease-in,
+        opacity 0ms 200ms,
+        fill 200ms ease-in;
+    transform-origin: center;
+}
+
+#mobile-menu[aria-expanded="true"] .hamburger-line {
+    fill: #399AC2;
+    transition: 
+        y 200ms ease-in,
+        rotate 200ms ease-in 200ms,
+        opacity 0ms 200ms,
+        fill 200ms ease-in;
+}
+
+#hamburger-bg {
+    transition: 200ms ease-in;
+}
+
+#mobile-menu[aria-expanded="true"] #hamburger-bg {
+    opacity: 0;
+    transition: 200ms ease-in;
+}
+
+
+
+#mobile-menu[aria-expanded="true"] .top,
+#mobile-menu[aria-expanded="true"] .bottom {
+    y: 45;
+}
+
+#mobile-menu[aria-expanded="true"] .top {
+    rotate: 45deg;
+}
+
+#mobile-menu[aria-expanded="true"] .middle {
+    opacity: 0;
+}
+
+#mobile-menu[aria-expanded="true"] .bottom {
+    rotate: -45deg;
+}
+
+#mobile-menu-nav {
+    transition: opacity 200ms ease-in;
+    opacity: 0;
+}
+
+#mobile-menu-nav[data-open="true"] {
+    transition: opacity 200ms ease-in;
+    opacity: 1;
+}
+/* 
+#mobile-menu-nav[data-open="false"] {
+    transition: 1s ease-in;
+    opacity: 0;
+} */
