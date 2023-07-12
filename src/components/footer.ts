@@ -57,14 +57,16 @@ export class Footer extends TailwindElement(style) {
         <!-- TABLET FOOTER -->
         <div  class="absolute bottom-0 left-0 hidden md:flex xl:hidden flex-col justify-evenly items-center w-full h-[426px] bg-primary text-white">
             <div class="flex flex-row justify-around w-full h-[50%]">
-                <div class="flex flex-col justify-center items-center" id="newsletter-desktop-tablet">
-                    <h3 class="font-unna-400-it text-[28px]">Subscribe to our Newsletter!</h3>
-                    <form class="flex flex-row justify-between items-center h-10 w-[416px] my-3" action="" method="">
-                        <input class="mt-o bg-white/[.62] font-jose-400-it text-base h-full w-[281px] rounded-l-full pl-8" type="email" name="email" placeholder="email@gmail.com">
-                        <input class="font-unna-700-it bg-white text-primary-dark2 text-[19px] h-full w-[130px] rounded-r-full" type="submit" value="SIGN ME UP!">
-                    </form>
-                    <p class="font-jose-400-it text-center text-sm">Stay up to date with our monthly newsletter <br/>on our publications, announcements and projects. <br/>Read our EU GDPR compliant policy.</p>
-                </div>
+                <form class="flex items-center">
+                    <fieldset class="flex flex-col justify-center items-center" id="newsletter-desktop-tablet">
+                        <legend class="font-unna-400-it text-[28px] text-center">Subscribe to our Newsletter!</legend>
+                        <div class="flex flex-row justify-between items-center h-10 w-[416px] my-3" action="" method="">
+                            <input class="mt-o bg-white/[.62] font-jose-400-it text-base h-full w-[281px] rounded-l-full pl-8" type="email" name="email" placeholder="email@gmail.com">
+                            <input class="font-unna-700-it bg-white text-primary-dark2 text-[19px] h-full w-[130px] rounded-r-full" type="submit" value="SIGN ME UP!">
+                        </div>
+                        <p class="font-jose-400-it text-center text-sm">Stay up to date with our monthly newsletter <br/>on our publications, announcements and projects. <br/>Read our EU GDPR compliant policy.</p>
+                    </fieldset>
+                </form>
                 <div class="flex flex-col h-full">
                     <div class="w-[201px] h-10  mt-[77px]">
                         <a class="inline-block w-full h-full border-[1px] border-white rounded-full font-unna-700-it text-center text-[26px] hover:bg-white hover:text-primary" href="./contact.html">Contact</a>
@@ -137,14 +139,16 @@ export class Footer extends TailwindElement(style) {
                 </div>
                 <div class="w-[45%]">
                     <div class="flex flex-row justify-around w-full h-[50%] pb-10 pl-9">
-                        <div class="flex flex-col justify-center items-center" id="newsletter-desktop-tablet">
-                            <h3 class="font-unna-400-it text-[28px]">Subscribe to our Newsletter!</h3>
-                            <form class="flex flex-row justify-between items-center h-10 w-[416px] my-3" action="" method="">
-                                <input class="mt-o bg-white/[.62] font-jose-400-it text-base h-full w-[281px] rounded-l-full pl-8" type="email" name="email" placeholder="email@gmail.com">
-                                <input class="font-unna-700-it bg-white text-primary-dark2 text-[19px] h-full w-[130px] rounded-r-full" type="submit" value="SIGN ME UP!">
-                            </form>
-                            <p class="font-jose-400-it text-center text-sm">Stay up to date with our monthly newsletter <br/>on our publications, announcements and projects. <br/>Read our EU GDPR compliant policy.</p>
-                        </div>
+                        <form class="flex items-center">
+                            <fieldset class="flex flex-col justify-center items-center" id="newsletter-desktop-tablet">
+                                <legend class="font-unna-400-it text-[28px] text-center">Subscribe to our Newsletter!</legend>
+                                <div class="flex flex-row justify-between items-center h-10 w-[416px] my-3" action="" method="">
+                                    <input class="mt-o bg-white/[.62] font-jose-400-it text-base h-full w-[281px] rounded-l-full pl-8" type="email" name="email" placeholder="email@gmail.com">
+                                    <input class="font-unna-700-it bg-white text-primary-dark2 text-[19px] h-full w-[130px] rounded-r-full" type="submit" value="SIGN ME UP!">
+                                </div>
+                                <p class="font-jose-400-it text-center text-sm">Stay up to date with our monthly newsletter <br/>on our publications, announcements and projects. <br/>Read our EU GDPR compliant policy.</p>
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>
