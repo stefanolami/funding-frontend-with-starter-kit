@@ -77,7 +77,7 @@ export class Header extends TailwindElement(style) {
 
 
             <!-- MOBILE HEADER -->
-
+            <div class="hidden">
             <div class="flex md:hidden justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
                 <a href="./home.html">
                     <img class="w-[138px] h-[43px] ml-4" src="../../images/icons/T&Pfunding-logo.svg" alt="">
@@ -105,6 +105,36 @@ export class Header extends TailwindElement(style) {
                     </nav>
                 </div>
             </div>
+            </div>
+
+            <!-- MOBILE HEADER TEST-->
+
+            <div id="mobile-header" class="flex md:hidden justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
+                <a href="./home.html">
+                    <img class="w-[138px] h-[43px] ml-4" src="../../images/icons/T&Pfunding-logo.svg" alt="">
+                </a>                
+                <div id="mobile-menu-div" class="relative mr-3">
+                    <button id="mobile-menu" class="select-none md:hidden w-[35px] h-[35px] relative" aria-expanded=${this.showMenu}>
+                        <img id="hamburger-bg" src="/images/icons/hamburger-bg.png" alt="Hamburger background" class="w-[35px] hidden absolute top-0 -z-10" />
+                        <img id="hamburger-bg" src="/images/icons/mobile-menu-circle.svg" alt="Hamburger background" class="w-[48px] scale-150 absolute top-1 -z-10" />
+                        <svg @click=${this.toggleMenu} class="hamburger absolute -top-[2px] -left-[2px] z-50" viewBox="0 0 100 100" width="39" height="40">
+                            <rect class="hamburger-line top z-50" fill="white" width="50" height="6" x="25" y="30" rx="3"></rect>
+                            <rect class="hamburger-line middle z-50" fill="white" width="50" height="6" x="25" y="45" rx="3"></rect>
+                            <rect class="hamburger-line bottom z-50"  fill="white" width="50" height="6" x="25" y="60" rx="3"></rect>
+                        </svg>
+                    </button>
+                    <nav id="mobile-menu-nav" data-open=${this.menuOpen} class="z-20 absolute w-screen top-12 -right-3 flex-col justify-between border-primary border-y-[3px] ">    
+                        <ul class="flex flex-col md:flex-row justify-evenly h-[370px] pl-6 font-jose-600-it text-primary-dark text-lg rounded-tl-lg rounded-bl-lg">
+                            <li><a href="./newsroom.html">Newsroom</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                            <li><a href="./publications.html">Publications</a></li>
+                            <li><a href="./why-us.html">Why Us</a></li>
+                            <li><a href="./who-we-are.html">Who We Are</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </header>
         `;
     }
@@ -114,7 +144,7 @@ export class Header extends TailwindElement(style) {
         console.log('closing')
     }
 
-    toggleMenu() {
+    /* toggleMenu() {
         if (this.showMenu == 'false') {
             this.showMenu = 'true';
             this.menuOpen = 'true'
@@ -123,6 +153,16 @@ export class Header extends TailwindElement(style) {
             setTimeout(() => {
                 this.showMenu = 'false';
             }, 200)
+        }
+    } */
+    toggleMenu() {
+        if (this.showMenu == 'false') {
+            this.showMenu = 'true';
+            this.menuOpen = 'true'
+        } else if (this.showMenu == 'true') {
+            this.menuOpen = 'false'
+            this.showMenu = 'false';
+            
         }
     }
 

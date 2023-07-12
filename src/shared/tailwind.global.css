@@ -316,7 +316,7 @@ textarea:focus {
 
 /* HAMBURGER ANIMATION */
 
-.hamburger-line {
+/* .hamburger-line {
     transition: 
         y 200ms ease-in 200ms,
         rotate 200ms ease-in,
@@ -370,9 +370,56 @@ textarea:focus {
 #mobile-menu-nav[data-open="true"] {
     transition: opacity 200ms ease-in;
     opacity: 1;
+} */
+
+
+/* HAMBURGER ANIMATION TEST*/
+
+.hamburger-line {
+    transition: 
+        y 200ms ease-in 200ms,
+        rotate 200ms ease-in,
+        opacity 0ms 200ms;
+    transform-origin: center;
+}
+
+#mobile-menu[aria-expanded="true"] .hamburger-line {
+    transition: 
+        y 200ms ease-in,
+        rotate 200ms ease-in 200ms,
+        opacity 0ms 200ms;
+}
+
+#mobile-menu[aria-expanded="true"] .top,
+#mobile-menu[aria-expanded="true"] .bottom {
+    y: 45;
+}
+
+#mobile-menu[aria-expanded="true"] .top {
+    rotate: 45deg;
+}
+
+#mobile-menu[aria-expanded="true"] .middle {
+    opacity: 0;
+}
+
+#mobile-menu[aria-expanded="true"] .bottom {
+    rotate: -45deg;
+}
+
+#mobile-menu-nav {
+    transition: 200ms ease-in;
+    transform: translateX(-100vw);
+    backdrop-filter: blur(15px);
+    background-color: color-mix(in srgb, transparent 50%, white)
+    /* height: calc(100vh - 59px); */
+}
+
+#mobile-menu-nav[data-open="true"] {
+    transition: 200ms ease-in;
+    transform: translateX(0px);
 }
 /* 
-#mobile-menu-nav[data-open="false"] {
-    transition: 1s ease-in;
-    opacity: 0;
+html {
+    overflow-x: hidden;
 } */
