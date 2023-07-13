@@ -15,17 +15,17 @@ export class Contact extends TailwindElement(style) {
             <div class=" md:hidden">
                 <h1 class="font-unna-700 text-[20px] text-center mb-6">CONTACT</h1>
                 <div class="flex flex-row justify-between w-[80%] m-auto">
-                    <a href="">
-                        <object data="../../images/icons/youtube.svg"></object>
+                    <a href="" target="_blank" aria-label="Follow us on Facebook">
+                        <img src="../../images/icons/facebook.svg" />
                     </a>
-                    <a href="">
-                        <object data="../../images/icons/twitter.svg"></object>
+                    <a href="" target="_blank" aria-label="Follow us on Twitter">
+                        <img src="../../images/icons/twitter.svg" />
                     </a>
-                    <a href="">
-                        <object data="../../images/icons/linkedln.svg"></object>
+                    <a href="" target="_blank" aria-label="Follow us on Youtube">
+                        <img src="../../images/icons/youtube.svg" />
                     </a>
-                    <a href="">
-                        <object data="../../images/icons/facebook.svg"></object>
+                    <a href="" target="_blank" aria-label="Follow us on LinkedIn">
+                        <img src="../../images/icons/linkedln.svg" />
                     </a>
                 </div>
                 <form class="flex flex-col flex-wrap items-center w-[88%] m-auto my-6 ">
@@ -39,17 +39,17 @@ export class Contact extends TailwindElement(style) {
                 </form>
                 <div class="flex flex-col justify-around my-6 text-center">
                     <div class="flex flex-col justify-center items-center my-4">
-                        <object class="w-10 h-10 my-1" data="../../images/icons/location.svg" type=""></object>
+                        <img class="w-10 h-10 my-1" src="../../images/icons/location.svg" type="" />
                         <h6 class="font-unna-700  text-[13px] my-1">BRUSSELS HEAD OFFICE</h6>
                         <p class="font-jose-400 text-[9px] my-[2px]">Sablon Tower, Rue Joseph Stevens 7 <br/>1000 Bruxelles Belgium</p>
                     </div>
                     <div class="flex flex-col justify-center items-center my-4">
-                        <object class="w-10 h-10 my-1" data="../../images/icons/email.svg" type=""></object>
+                        <img class="w-10 h-10 my-1" src="../../images/icons/email.svg" type="" />
                         <h6 class="font-unna-700  text-[13px] my-1">EMAIL US</h6>
                         <p class="font-jose-400 text-[9px] my-[2px]">info@fundingontap.com</p>
                     </div>
                     <div class="flex flex-col justify-center items-center my-4">
-                        <object class="w-10 h-10 my-1" data="../../images/icons/phone.svg" type=""></object>
+                        <img class="w-10 h-10 my-1" src="../../images/icons/phone.svg" type="" />
                         <h6 class="font-unna-700  text-[13px] my-1">CALL US</h6>
                         <p class="font-jose-400 text-[9px] my-[2px]">+32 (0) 2 401 61 31</p>
                     </div>
@@ -64,9 +64,9 @@ export class Contact extends TailwindElement(style) {
             <!-- DESKTOP CONTACT PAGE -->
 
             <div class="hidden md:block">
-                <h1 class="font-unna-700 text-[39px] xl:text-[50px] text-center mb-6">CONTACT</h1>
+                <h1 class="font-unna-700 text-[39px] xl:text-[50px] text-center mb-6">CONTACT US</h1>
                 <div class="flex flex-row w-[90%] xl:w-[70%] m-auto">
-                    <form class="flex flex-col flex-wrap items-center w-2/3 m-auto my-6 ">
+                    <form class="flex flex-col flex-wrap items-center w-2/3 m-auto my-6" aria-label="Contact Us Form">
                         <div class="flex flex-row w-full justify-between items-center">
                             <input type="email" class="contact-page-input w-[49%] h-[40px]" placeholder="Email">
                             <input type="text" class="contact-page-input w-[49%] h-[40px]" placeholder="Name">
@@ -77,17 +77,17 @@ export class Contact extends TailwindElement(style) {
                     </form>
                     <div class="flex flex-col justify-between w-1/3 ml-10 mb-16 text-center">
                         <div class="flex flex-col justify-center items-center my-4">
-                            <object class="w-[40px] xl:w-[60px] my-1" data="../../images/icons/location.svg" type=""></object>
+                            <img class="w-[40px] xl:w-[60px] my-1" src="../../images/icons/location.svg" type="" />
                             <h6 class="font-unna-700 text-[18px] xl:text-[21px] my-1">BRUSSELS HEAD OFFICE</h6>
                             <p class="font-jose-400 text-[14px] leading-4 my-[2px]">Sablon Tower, Rue Joseph Stevens 7 <br/>1000 Bruxelles Belgium</p>
                         </div>
                         <div class="flex flex-col justify-center items-center my-4">
-                            <object class="w-[40px] xl:w-[60px] my-1" data="../../images/icons/email.svg" type=""></object>
+                            <img class="w-[40px] xl:w-[60px] my-1" src="../../images/icons/email.svg" type="" />
                             <h6 class="font-unna-700 text-[18px] xl:text-[21px] my-1">EMAIL US</h6>
                             <p class="font-jose-400 text-[14px] leading-4 my-[2px]">info@fundingontap.com</p>
                         </div>
                         <div class="flex flex-col justify-center items-center my-4">
-                            <object class="w-[40px] xl:w-[60px] my-1" data="../../images/icons/phone.svg" type=""></object>
+                            <img class="w-[40px] xl:w-[60px] my-1" src="../../images/icons/phone.svg" type="" />
                             <h6 class="font-unna-700 text-[18px] xl:text-[21px] my-1">CALL US</h6>
                             <p class="font-jose-400 text-[14px] leading-4 my-[2px]">+32 (0) 2 401 61 31</p>
                         </div>
@@ -95,22 +95,23 @@ export class Contact extends TailwindElement(style) {
                 </div>
                 <h4 class="font-unna-700-it text-[30px] text-center my-14">Follow us on social media</h4>
                 <div class="flex flex-row justify-between w-[70%] xl:w-[50%] m-auto mt-11 mb-40">
-                    <a class="flex flex-col justify-center items-center" href="">
-                        <object class="w-[40px] xl:w-[60px]"  data="../../images/icons/youtube.svg"></object>
-                        <p class="font-unna-700-it text-[23px] text-primary-dark2 my-3">Youtube</p>
-                    </a>
-                    <a class="flex flex-col justify-center items-center" href="">
-                        <object class="w-[40px] xl:w-[60px]" data="../../images/icons/twitter.svg"></object>
-                        <p class="font-unna-700-it text-[23px] text-primary-dark2 my-3">Twitter</p>
-                    </a>
-                    <a class="flex flex-col justify-center items-center" href="">
-                        <object class="w-[40px] xl:w-[60px]"  data="../../images/icons/linkedln.svg"></object>
-                        <p class="font-unna-700-it text-[23px] text-primary-dark2 my-3">LinkedIn</p>
-                    </a>
-                    <a class="flex flex-col justify-center items-center" href="">
-                        <object class="w-[40px] xl:w-[60px]"  data="../../images/icons/facebook.svg"></object>
+                    <a class="flex flex-col justify-center items-center" href="" target="_blank" aria-label="Follow us on Facebook">
+                        <img class="w-[40px] xl:w-[60px]"  src="../../images/icons/facebook.svg" />
                         <p class="font-unna-700-it text-[23px] text-primary-dark2 my-3">Facebook</p>
                     </a>
+                    <a class="flex flex-col justify-center items-center" href="" target="_blank" aria-label="Follow us on Twitter">
+                        <img class="w-[40px] xl:w-[60px]" src="../../images/icons/twitter.svg" />
+                        <p class="font-unna-700-it text-[23px] text-primary-dark2 my-3">Twitter</p>
+                    </a>
+                    <a class="flex flex-col justify-center items-center" href="" target="_blank" aria-label="Follow us on Youtube">
+                        <img class="w-[40px] xl:w-[60px]"  src="../../images/icons/youtube.svg" />
+                        <p class="font-unna-700-it text-[23px] text-primary-dark2 my-3">Youtube</p>
+                    </a>
+                    <a class="flex flex-col justify-center items-center" href="" target="_blank" aria-label="Follow us on LinkedIn">
+                        <img class="w-[40px] xl:w-[60px]"  src="../../images/icons/linkedln.svg" />
+                        <p class="font-unna-700-it text-[23px] text-primary-dark2 my-3">LinkedIn</p>
+                    </a>
+                    
                 </div>
             </div>
 

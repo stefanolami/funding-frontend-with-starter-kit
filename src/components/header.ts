@@ -114,10 +114,10 @@ export class Header extends TailwindElement(style) {
                     <img class="w-[138px] h-[43px] ml-4" src="../../images/icons/T&Pfunding-logo.svg" alt="">
                 </a>                
                 <div id="mobile-menu-div" class="relative mr-3">
-                    <button id="mobile-menu" class="select-none md:hidden w-[35px] h-[35px] relative" aria-expanded=${this.showMenu}>
+                    <button @click=${this.toggleMenu} id="mobile-menu" class="select-none md:hidden w-[35px] h-[35px] relative" aria-label="Navigation menu" aria-expanded=${this.showMenu}>
                         <img id="hamburger-bg" src="/images/icons/hamburger-bg.png" alt="Hamburger background" class="w-[35px] hidden absolute top-0 -z-10" />
                         <img id="hamburger-bg" src="/images/icons/mobile-menu-circle.svg" alt="Hamburger background" class="w-[48px] scale-150 absolute top-1 -z-10" />
-                        <svg @click=${this.toggleMenu} class="hamburger absolute -top-[2px] -left-[2px] z-50" viewBox="0 0 100 100" width="39" height="40">
+                        <svg class="hamburger absolute -top-[2px] -left-[2px] z-50" viewBox="0 0 100 100" width="39" height="40">
                             <rect class="hamburger-line top z-50" fill="white" width="50" height="6" x="25" y="30" rx="3"></rect>
                             <rect class="hamburger-line middle z-50" fill="white" width="50" height="6" x="25" y="45" rx="3"></rect>
                             <rect class="hamburger-line bottom z-50"  fill="white" width="50" height="6" x="25" y="60" rx="3"></rect>

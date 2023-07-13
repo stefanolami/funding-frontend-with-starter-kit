@@ -33,16 +33,16 @@ export class Footer extends TailwindElement(style) {
                 <li><a href="./privacy-policy.html">Privacy Policy</a></li>
             </ul>
             <div class="flex flex-row justify-center mx-auto my-3 gap-2">
-                <a href="" target="blank">
+                <a href="" target="blank" aria-label="Follow us on Facebook">
                     <img class="w-[22px]" src="../../images/icons/facebook-footer.svg" alt="Facebook icon">
                 </a>
-                <a href="" target="blank">
+                <a href="" target="blank" aria-label="Follow us on Twitter">
                     <img class="w-[22px]" src="../../images/icons/twitter-footer.svg" alt="Twitter icon">
                 </a>
-                <a href="" target="blank">
+                <a href="" target="blank" aria-label="Follow us on Youtube">
                     <img class="w-[22px]" src="../../images/icons/youtube-footer.svg" alt="Youtube icon">
                 </a>
-                <a href="" target="blank">
+                <a href="" target="blank" aria-label="Follow us on LinkedIn">
                     <img class="w-[22px]" src="../../images/icons/linkedln-footer.svg" alt="LinkedIn icon">
                 </a>
             </div>
@@ -72,16 +72,16 @@ export class Footer extends TailwindElement(style) {
                         <a class="inline-block w-full h-full border-[1px] border-white rounded-full font-unna-700-it text-center text-[26px] hover:bg-white hover:text-primary" href="./contact.html">Contact</a>
                     </div>
                     <div class="flex flex-row justify-center mx-auto mt-7 gap-5">
-                        <a href="" target="blank">
+                        <a href="" target="blank" aria-label="Follow us on Facebook">
                             <img class="w-[35px]" src="../../images/icons/facebook-footer.svg" alt="Facebook icon">
                         </a>
-                        <a href="" target="blank">
+                        <a href="" target="blank" aria-label="Follow us on Twitter">
                             <img class="w-[35px]" src="../../images/icons/twitter-footer.svg" alt="Twitter icon">
                         </a>
-                        <a href="" target="blank">
+                        <a href="" target="blank" aria-label="Follow us on Youtube">
                             <img class="w-[35px]" src="../../images/icons/youtube-footer.svg" alt="Youtube icon">
                         </a>
-                        <a href="" target="blank">
+                        <a href="" target="blank" aria-label="Follow us on LinkedIn">
                             <img class="w-[35px]" src="../../images/icons/linkedln-footer.svg" alt="LinkedIn icon">
                         </a>
                     </div>
@@ -155,16 +155,16 @@ export class Footer extends TailwindElement(style) {
             <div class="flex flex-row justify-center items-center gap-8">
                 <p class="font-unna-400-it text-[27px]">Follow us on social media!</p>
                 <div class="flex flex-row justify-center items-center gap-5">
-                    <a href="" target="blank">
+                    <a href="" target="blank" aria-label="Follow us on Facebook">
                         <img class="w-[35px]" src="../../images/icons/facebook-footer.svg" alt="Facebook icon">
                     </a>
-                    <a href="" target="blank">
+                    <a href="" target="blank" aria-label="Follow us on Twitter">
                         <img class="w-[35px]" src="../../images/icons/twitter-footer.svg" alt="Twitter icon">
                     </a>
-                    <a href="" target="blank">
+                    <a href="" target="blank" aria-label="Follow us on Youtube">
                         <img class="w-[35px]" src="../../images/icons/youtube-footer.svg" alt="Youtube icon">
                     </a>
-                    <a href="" target="blank">
+                    <a href="" target="blank" aria-label="Follow us on LinkedIn">
                         <img class="w-[35px]" src="../../images/icons/linkedln-footer.svg" alt="LinkedIn icon">
                     </a>
                 </div>
